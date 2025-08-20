@@ -1,0 +1,5 @@
+---
+collections:
+# Add Cisco Intersight collection as requirement.
+  - name: cisco.intersight
+    type: galaxy
