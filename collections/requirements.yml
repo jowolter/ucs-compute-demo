@@ -1,6 +1,6 @@
 ---
 collections:
   # Use Cisco Intersight Collection
-  - name: cisco.intersight
+  - cisco.intersight
   # Use Cisco CVD Compute Collection
-  - name: cisco.cvd_compute
+  - cisco.cvd_compute
