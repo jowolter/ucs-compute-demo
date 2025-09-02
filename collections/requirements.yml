@@ -2,4 +2,3 @@
 collections:
 # Use Cisco Intersight Collection
   - name: cisco.intersight
-    version: 2.2.0
