@@ -1,7 +1,0 @@
----
-collections:
-  # Use Cisco Intersight Collection
-  - cisco.intersight
-    
-  - name: cisco.cvd_compute
-    version: "==1.1.0"
