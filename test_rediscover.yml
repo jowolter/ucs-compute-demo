@@ -15,4 +15,4 @@
         name: cisco.cvd_compute.rediscover_ucs_chassis
 
   roles:
-    - rediscover_ucs_chassis
+    - cisco.cvd_compute.rediscover_ucs_chassis
