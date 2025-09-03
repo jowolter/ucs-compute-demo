@@ -3,6 +3,5 @@ collections:
   # Use the Cisco Intersight Collection
   - name: cisco.intersight
   # Use Cisco CVD Compute collection
-  - Name: cisco.cvd_compute
+  - name: cisco.cvd_compute
     source: https://ac08-ocp-installer.ac08-ocp.flexpodb4.cisco.com/pulp_ansible/galaxy/published/
-    version:"==1.1.0"
