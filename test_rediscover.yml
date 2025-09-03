@@ -12,5 +12,4 @@
 #    - rediscover_ucs_chassis
   tasks:
     - name: Rediscover UCS chasis
-      include_role:
-        name: cvd_compute.rediscover_ucs_chassis
+      cvd_compute.rediscover_ucs_chassis
