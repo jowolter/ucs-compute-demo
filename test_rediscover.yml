@@ -1,9 +1,9 @@
 ---
 - name: Test Cisco UCS chassis rediscovery in Intersight
   hosts: localhost
-  collections:
-    - name: ./cisco/
-      type: subdirs
+#  collections:
+#    - name: ./cisco/
+#      type: subdirs
 
 #  vars:
     # rediscover_ucs_chassis_api_private_key: "{{ 'INTERSIGHT_API_PRIVATE_KEY' }}"
