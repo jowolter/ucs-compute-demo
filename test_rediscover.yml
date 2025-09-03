@@ -12,4 +12,5 @@
 #    - rediscover_ucs_chassis
   tasks:
     - name: Rediscover UCS chasis
-      cvd_compute.rediscover_ucs_chassis
+      ansible.builtin.import_role:
+        name: cvd_compute.rediscover_ucs_chassis
