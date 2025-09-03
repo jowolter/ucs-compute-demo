@@ -10,5 +10,9 @@
     rediscover_ucs_chassis_chassis_name_list: ['AC05-6454-1']
 #  roles:
 #    - rediscover_ucs_chassis
-  tasks:
-    - cisco.cvd_compute.rediscover_ucs_chassis
+  pre_tasks:
+    - import_role:
+        name: cisco.cvd_compute.rediscover_ucs_chassis
+
+  roles:
+    - rediscover_ucs_chassis
