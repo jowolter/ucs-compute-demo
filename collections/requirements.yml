@@ -4,4 +4,4 @@ collections:
   - cisco.intersight
   # Use Cisco CVD Compute Collection
   - name: cisco.cvd_compute
-    version: 1.1.0
+    type: galaxy
