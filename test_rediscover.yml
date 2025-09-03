@@ -4,15 +4,14 @@
   collections:
     - cisco.cvd_compute
 
-  vars:
+#  vars:
     # rediscover_ucs_chassis_api_private_key: "{{ 'INTERSIGHT_API_PRIVATE_KEY' }}"
     # rediscover_ucs_chassis_api_key_id: "{{ 'INTERSIGHT_API_KEY_ID' }}"
-    rediscover_ucs_chassis_chassis_name_list: ['AC05-6454-1']
+#    rediscover_ucs_chassis_chassis_name_list: ['AC05-6454-1']
 #  roles:
 #    - rediscover_ucs_chassis
-  pre_tasks:
-    - import_role:
+  tasks:
+    - ansible.builtin.import_role:
         name: cisco.cvd_compute.rediscover_ucs_chassis
-
-  roles:
-    - cisco.cvd_compute.rediscover_ucs_chassis
+      vars:
+        rediscover_ucs_chassis_chassis_name_list: ['AC05-6454-1']
