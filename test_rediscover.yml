@@ -1,7 +1,7 @@
 ---
 - name: Test Cisco UCS chassis rediscovery in Intersight
   hosts: localhost
-  colletions:
+  collections:
     - cisco.cvd_compute
 
   vars:
