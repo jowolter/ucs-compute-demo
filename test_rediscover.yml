@@ -13,4 +13,4 @@
   tasks:
     - name: Rediscover UCS chasis
       ansible.builtin.import_role:
-        name: cvd_compute.rediscover_ucs_chassis
+        name: cisco.cvd_compute.rediscover_ucs_chassis
