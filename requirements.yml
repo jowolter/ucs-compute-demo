@@ -2,6 +2,7 @@
 collections:
   # Use the Cisco Intersight Collection
   - name: cisco.intersight
+    version: 2.2.0
   # Use Cisco CVD Compute collection
   - name: cisco.cvd_compute
-    version: "==1.1.0"
+    version: 1.1.0
